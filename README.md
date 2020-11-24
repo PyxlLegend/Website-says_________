@@ -1,4 +1,4 @@
-# Websites-that-talk
+# Codes for wesite to talk
 Want a website to say what you want? Well this is an entire library of codes for you
 This is not a code so don't copy and paste
 I create these codes and then you can book mark them to try them out
