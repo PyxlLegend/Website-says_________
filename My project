@@ -1,0 +1,67 @@
+whenSetup(function () {
+  setBackgroundEffectWithPalette("disco_ball", "electronic");
+  setForegroundEffectExtended("confetti");
+  makeNewDanceSpriteGroup(20, "DOG", "inner");
+  setTintEachInline(sprites, '#00ffff');
+  changeMoveEachLR(sprites, MOVES.Fresh, -1);
+});
+
+everySeconds(40, "measures", function () {
+  setTintEachInline("DOG", '#8800ff');
+  changeMoveEachLR(sprites, MOVES.ThisOrThat, -1);
+  alternateMoves(sprites, 2, MOVES.ThisOrThat, MOVES.ClapHigh);
+  setTintEachInline("CAT", '#ff00ff');
+  setForegroundEffectExtended("confetti");
+});
+
+everySeconds(2, "measures", function () {
+  doMoveEachLR(sprites, MOVES.XFever, -1);
+  setBackgroundEffectWithPalette("diamonds", "electronic");
+});
+
+everySeconds(30, "measures", function () {
+  setTintEachInline("CAT", '#0000ff');
+  setTintEachInline("DOG", '#ff00ff');
+  setForegroundEffectExtended("color_lights");
+  changeMoveEachLR(sprites, MOVES.ClapHigh, -1);
+});
+
+everySeconds(35, "measures", function () {
+  setTintEachInline("DOG", '#00ff00');
+  setTintEachInline(sprites, '#ffff00');
+  changeMoveEachLR(sprites, MOVES.Dab, -1);
+});
+
+everySeconds(35, "measures", function () {
+  setTintEachInline("CAT", '#00ff00');
+  changeMoveEachLR(sprites, MOVES.DoubleJam, -1);
+});
+
+everySeconds(24, "measures", function () {
+  setTintEachInline("CAT", '#00ff00');
+  changeMoveEachLR(sprites, MOVES.DoubleJam, -1);
+  makeNewDanceSpriteGroup(20, "CAT", "circle");
+  changeMoveEachLR(sprites, MOVES.Drop, -1);
+});
+
+everySeconds(6, "measures", function () {
+  setBackground('#3366ff');
+});
+
+everySeconds(28, "measures", function () {
+  setBackground('#cc33cc');
+  changeMoveEachLR(sprites, MOVES.Fresh, -1);
+});
+
+everySeconds(10, "measures", function () {
+  setBackground('#33ff33');
+});
+
+everySeconds(8, "measures", function () {
+  changeMoveEachLR(sprites, MOVES.DoubleJam, -1);
+  setBackgroundEffectWithPalette("disco_ball", "electronic");
+});
+
+everySeconds(17, "measures", function () {
+  changeMoveEachLR(sprites, MOVES.Floss, -1);
+});
