@@ -12,4 +12,4 @@ If you don't know how to use my codes here is how:
 6. Next you go to the box that says "URL" near it and paste the code in and click save
 7. Once your done with clicking save you can go to any website and click the bookmark and the website will be forced to say something.
 
-Hope these instructions helped you and email our business if it doesn't: thegaminglegend0000@gmail.com.
+Hope these instructions helped you and email our business if it doesn't: pyxllegend@gmail.com
